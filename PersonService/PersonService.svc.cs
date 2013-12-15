@@ -15,5 +15,11 @@ namespace PersonService
         {
             return id == 0 ? null : new Person {Name = "PersonName"};
         }
+
+
+        public Person GetNullPerson()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -14,6 +14,9 @@ namespace PersonService
         [OperationContract]
         Person GetPerson(int id);
 
+        [OperationContract]
+        Person GetNullPerson();
+
     }
 
     [DataContract]
